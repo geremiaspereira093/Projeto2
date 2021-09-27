@@ -1,0 +1,12 @@
+/*Rodape*/
+.rodape{
+	padding: -5em;
+}
+#corpo, .rodape{
+	background:#1A1A1A;
+	text-align: center;
+}
+ .rodape, .Paragrafo1{
+	color:#FFDD2A;
+	font-size: -1em;
+}

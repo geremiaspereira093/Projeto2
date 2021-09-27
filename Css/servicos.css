@@ -1,0 +1,22 @@
+/************* PRINCIPAL ****************/
+
+.divGrande{
+display: flex;
+justify-content: space-around;
+padding-top: 3em;
+
+}
+.imgServicos{
+border-radius: 10%;
+}
+
+@media only screen and (max-device-width:900px){
+	.divGrande{
+		flex-direction: column;
+	}
+	.imgServicos{
+		border-radius: 30%;
+		height: 400px;
+		width: 440px;
+	}
+}

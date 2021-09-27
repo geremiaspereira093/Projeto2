@@ -1,0 +1,31 @@
+
+h1{
+	display: inline;
+}
+.MapaVideo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.MarginBotom{
+	margin-bottom: 1.2em;
+}
+.MapaVideo,.Mapa{
+	margin-top: 10em.
+}
+.segundoParagrafo{
+	text-align: center;
+}
+.Mapa{
+	margin-top: 2em;
+}
+.Video{
+	margin-top: 2em;
+}
+.textoTabela{
+	margin-left: auto;
+	margin-right: auto;
+	background: #000;
+	color: #FFDD2A;
+	margin-top: 2em;
+}

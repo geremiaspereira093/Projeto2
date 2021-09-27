@@ -1,0 +1,14 @@
+/* Principal*/
+ #principal{
+	background:#FFDD2A;
+	text-align: center;
+	margin-top :1em;
+	padding: 5em;
+}
+.titulo3{
+	margin-top: 1em;
+}
+.texto{
+	text-align: justify;
+	margin-top: 2em;
+}

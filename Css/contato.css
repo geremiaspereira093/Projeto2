@@ -1,0 +1,65 @@
+#frm{
+	margin-top: -50px;
+	padding: 1px;
+}
+#forms{
+	margin-top: 50px;
+	border-radius: 20px;
+}
+input{
+    margin-top: 10px;
+    width: 500px;
+    height: 30px;
+}
+.Estado{
+	width:70px;
+}
+.Cidade{
+	width:405px;
+}
+.redesSociais{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+
+}
+.logoRedes{
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	border-right: 3px;
+	border-radius: 20px;
+	padding: 1em;
+}
+
+.logoRedes{
+	border-radius: 20px;
+}
+.linkRedes{
+	text-decoration: none;
+}
+.mensagem{
+	width: 500px;
+    height: 250px;
+}
+.botao{
+	color:#FFDD2A;
+	background:#1A1A1A;
+	border-style: none;
+	padding:1em;
+	border-radius: 10px;
+}
+.botao:hover{
+	color:#fff;
+}
+@media only screen and (max-device-width:900px){
+	.redesSociais{
+		flex-direction: column;
+	}
+	.logoRedes{
+		border-radius: 50%;
+		height: 400px;
+		width: 440px;
+	}
+}
+

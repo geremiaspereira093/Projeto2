@@ -1,0 +1,48 @@
+/*Cabecalho*/
+.cabecalho{
+	background:#1A1A1A;
+	display: flex;
+	justify-content :space-between;
+	padding: -10em;
+	padding-left: 2em;
+/*	margin-bottom: 1em;*/
+}
+.navMenu{
+	background:#1A1A1A;
+	display: flex;
+	flex-direction: column-reverse;
+} 
+.listaMenu{
+	background: #1A1A1A ;
+}
+.itemMenu{
+	display: inline;
+	margin: 2em;
+}
+.linkMenu{
+	color: #FFDD2A;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 2em;
+
+}
+
+.linkMenu:hover{
+	color: white;
+	font-size: 2em;
+	border-style: solid;
+	border-radius: 20%;
+}
+@media only screen and(max-device-width:900px){
+	.linkMenu{
+		font-size: 3em;
+		flex-direction: column;
+	}
+}
+
+@media only screen and(max-device-width:600px){
+	.linkMenu{
+		font-size: 4em;
+		flex-direction: column;
+	}
+}
